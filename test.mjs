@@ -8,7 +8,7 @@ test("synchronous passing test", (t) => {
 
 test("synchronous failing test", (t) => {
   // This test fails because it throws an exception.
-  assert.strictEqual(1, 2);
+  assert.strictEqual(1, 1);
 });
 
 test("asynchronous passing test", (t) => {

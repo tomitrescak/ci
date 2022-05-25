@@ -1,0 +1,21 @@
+{
+  "name": "ci",
+  "version": "1.0.0",
+  "description": "CI Testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test ./test.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitops.westernsydney.edu.au/30031005/ci.git"
+  },
+  "keywords": [
+    "CI/CD"
+  ],
+  "author": "tomi.trescak <tomi.trescak@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^17.0.35"
+  }
+}
